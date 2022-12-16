@@ -1,0 +1,123 @@
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+/* This is what is called a reset. Different browsers have different default padding and margins. Using the * reserts all depault elements to have zero padding and margin. */
+
+
+.center {
+	display: block;
+	margin-left: auto;
+
+	margin-right: auto;
+	width: 50%;
+  }
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    }
+
+img {
+  outline-style: solid;
+  outline-color: black;
+display: block;
+}
+figcaption{
+  margin-top:5px ;
+  text-align: center;
+  color: black;
+}
+h1{
+  font-family: 'Cambo', serif;
+  color: black;
+}
+h2{
+font-family: 'Roboto', sans-serif;
+color: black;
+}
+a,p{
+  color: black;
+}
+body{
+  background-color: mintcream;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.icon-contaniner{
+  display: flex;
+  flex-direction: row;
+  max-width:  800px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-contaniner img{
+  width: 200px;
+  height: 200px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  padding-left: 20px;
+  color: darkblack;
+}
+
+
+.chart{ 
+  width:50%;
+  background-color: mintcream;
+  margin: auto;
+}
+
+html, body{
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 10px;
+}
+  
+  
+
+  
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+
+
+}
+
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 780px) {
+
+    /*ADD HERE*/
+
+}
